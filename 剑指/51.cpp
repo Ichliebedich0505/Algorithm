@@ -55,7 +55,6 @@ public:
 
     int inverseCore(vector<int>& data, vector<int>& copy, int begin, int end){
         if(begin >= end) {
-            copy[begin] = data[begin];
             return 0;
         }
         int mid = (begin + end) / 2;
