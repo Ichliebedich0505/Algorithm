@@ -16,7 +16,7 @@ public:
     TreeNode* Convert(TreeNode* pRootOfTree)
     {
         if(pRootOfTree == nullptr){
-            return nullptr;
+            return nullptr;;;;;
         }
         TreeNode* pLastNode = nullptr;
         core(pRootOfTree, &pLastNode);
